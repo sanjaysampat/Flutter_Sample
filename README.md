@@ -10,8 +10,8 @@ My first Flutter sample project
         - [Test Drive](https://flutter.dev/docs/get-started/test-drive?tab=androidstudio#create-app)
     * Flutter plugins in Android Studio and Visual Studio Code. Kept Visual Studio and Android Studio applications open.
     * mac terminal
-        * Add path of Android SDK and/or Flutter by "export PATH='<both paths>:<existing paths>"
-        * If Android SDK was not set then "flutter config --android-sdk <sdk path>"
+        * Add path of Android SDK and/or Flutter by "export PATH='both paths:existing paths"
+        * If Android SDK was not set then "flutter config --android-sdk sdk path"
         * "flutter doctor --android-licenses
         * Check instllations with "flutter doctor", solve the unchecked pending points
             * could detect both Android and iOS devices.
@@ -37,5 +37,5 @@ My first Flutter sample project
     * Created new project of Flutter in Visual Code.
     * Created new repository on Github
         * Connected project with this repository
-        * Commit and Push to <master> branch.
+        * Commit and Push to 'master' branch.
     * Could run and check 'Hot Reload' feature to see apps on both Android and iOS device.
