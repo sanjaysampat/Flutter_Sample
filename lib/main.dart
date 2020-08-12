@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 
+void main() => runApp(MyApp());
+// The main() method uses arrow (=>) notation. Use arrow notation for one-line functions or methods.
+/* // following code without (=>) arrow notation
 void main() {
   runApp(MyApp());
 }
+*/
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -63,6 +67,8 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  // A widget’s main job is to provide a build() method that describes how to 
+  // display the widget in terms of other, lower level widgets.
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -71,6 +77,10 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
+    //
+    // The Scaffold widget, from the Material library, provides a default app bar, 
+    // title, and a body property that holds the widget tree for the home screen. 
+    // The widget subtree can be quite complex.
     return Scaffold(
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
@@ -98,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
+              'This is to test this bigger line. You have pushed the button this many times:',
             ),
             Text(
               '$_counter',
